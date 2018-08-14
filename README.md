@@ -2,6 +2,6 @@
 
 ## Goals
 
-1. [x] Build a Hello World
-*  [x] Deploy to Heroku
-*  [ ] Work with JSON
+* [x] Build a Hello World
+* [x] [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+* [ ] Work with JSON
