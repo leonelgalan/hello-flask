@@ -5,9 +5,9 @@
 * [x] Build a Hello World
 * [x] [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) or run locally: `heroku local`
 * [x] Work with JSON
-* [ ] Explore custom commands
+* [x] Explore custom commands
 
-## Example Requests
+## Examples
 
 ### `GET /`
 
@@ -23,4 +23,12 @@ curl --request GET \
   --url http://localhost:5000/echo \
   --header 'Content-Type: application/json' \
   --data '{"hello": "world"}'
+```
+
+### `say_hi` Command
+```sh
+pipenv run flask say_hi Leonel
+```
+```
+Hello Leonel
 ```

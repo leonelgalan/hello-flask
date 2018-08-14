@@ -1,3 +1,4 @@
+import click
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
@@ -9,6 +10,11 @@ def hello():
 def echo():
     body = request.get_json()
     return jsonify(body)
+
+@app.cli.command()
+@click.argument('name')
+def say_hi(name):
+    print('Hello', name)
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
