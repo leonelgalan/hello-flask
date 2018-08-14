@@ -1,0 +1,7 @@
+{
+  "name": "Sample Flask App",
+  "description": "A barebones Flask App",
+  "repository": "https://github.com/leonelgalan/hello-flask",
+  "logo": "http://flask.pocoo.org/static/logo/flask.png",
+  "keywords": ["python", "flask", "hello-world"]
+}
